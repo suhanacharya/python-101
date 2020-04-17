@@ -23,7 +23,7 @@ def calc(number1, number2, op):
 	elif op == 'divide':
 		if number2 == 0:
 			print('\nCannot divide by 0!!')
-			return 0
+			return None
 		else:
 			return number1 / number2
 	else:
@@ -31,21 +31,16 @@ def calc(number1, number2, op):
 		return 0
 		
 
-sum = calc(6, 4, 'add')		#Give input here
+sum = calc(int(input()), int(input()), 'add')		#Give input here
 print('sum = ' + str(sum))
 print('-------------------------')
 
-diff = calc(6, 4, 'subtract')	#Give input here
+diff = calc(int(input()), int(input()), 'subtract')	#Give input here
 print('\ndiff = ' + str(diff))
 print('-------------------------')
 
-quo = calc(6, 4, 'divide')		#Give input here
+quo = calc(int(input()), int(input()), 'divide')		#Give input here
 print('\nQuo = ' + str(quo))
 print('-------------------------')
-
-quo = calc(6, 0, 'divide')		#Give input here
-print('\nQuo = ' + str(quo))
-print('-------------------------')
-
 
 
