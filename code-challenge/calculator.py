@@ -31,19 +31,19 @@ def calc(number1, number2, op):
 		return 0
 		
 
-sum = calc(6, 4, 'add')
+sum = calc(6, 4, 'add')		#Give input here
 print('sum = ' + str(sum))
 print('-------------------------')
 
-diff = calc(6, 4, 'subtract')
+diff = calc(6, 4, 'subtract')	#Give input here
 print('\ndiff = ' + str(diff))
 print('-------------------------')
 
-quo = calc(6, 4, 'divide')
+quo = calc(6, 4, 'divide')		#Give input here
 print('\nQuo = ' + str(quo))
 print('-------------------------')
 
-quo = calc(6, 0, 'divide')
+quo = calc(6, 0, 'divide')		#Give input here
 print('\nQuo = ' + str(quo))
 print('-------------------------')
 
