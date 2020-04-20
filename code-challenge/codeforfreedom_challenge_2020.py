@@ -24,11 +24,10 @@ for index, animal in animals_dictionary.items():
 	# current position is not desired position
 	if index != counter:  
 		if index == len(animal):
-			# Since animal already
-			# in desired position, make it uppercase
+			# Since animal has same length as
+			# the value of desired position, make it uppercase
 			animals_dictionary[index] = animal.upper()  
 		else:
-			# Else convert to lowercase
 			animals_dictionary[index] = animal.lower()
 
 	counter = counter + 1  # Increment counter every iteration
